@@ -32,4 +32,10 @@ public class login_page
 		return element;
 		
 	}
+	public static  WebElement  username1()
+	{
+		element = Login.driver.findElement(By.cssSelector("input#txtUsername"));
+		return element;
+		
+	}
 }
